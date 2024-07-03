@@ -26,25 +26,25 @@
                 <button class="cta-button">¡Recibí tu box para el domingo!</button>
                 <p>Como parte de nuestra campaña actual, recibirán una box especial mientras alentamos y disfrutamos de la Copa América.</p>
             </div>
-            <form class="form">
+            <form class="form" method="POST" action="php/contacto.php">
                 <div class="form-group">
-                    <input type="text" placeholder="Nombre*" required>
-                    <input type="text" placeholder="Apellido*" required>
+                    <input type="text" name="nombre" placeholder="Nombre*" required>
+                    <input type="text" name="apellido" placeholder="Apellido*" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Empresa*" required>
-                    <input type="text" placeholder="Ciudad*" required>
+                    <input type="text" name="empresa" placeholder="Empresa*" required>
+                    <input type="text" name="ciudad" placeholder="Ciudad*" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Dirección*" required>
-                    <input type="text" placeholder="Entre calles" required>
+                    <input type="text" name="direccion" placeholder="Dirección*" required>
+                    <input type="text" name="entre_calles" placeholder="Entre calles" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="C.P.*" required>
-                    <input type="text" placeholder="Teléfono de contacto*" required>
+                    <input type="text" name="cp" placeholder="C.P.*" required>
+                    <input type="text" name="telefono" placeholder="Teléfono de contacto*" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Especificaciones de entrega*" required>
+                    <input type="text" name="especificaciones" placeholder="Especificaciones de entrega*" required>
                 </div>
                 <button type="submit" class="submit-button">Enviar</button>
             </form>
