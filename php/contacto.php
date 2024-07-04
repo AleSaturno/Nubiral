@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'alesaturno64@gmail.com'; // Reemplaza con tu dirección de Gmail
-        $mail->Password = 'olgu cwwr xwvn fgho'; // Reemplaza con la contraseña de aplicación generada
+        $mail->Password = 'mkun jxes cdza xpcz'; // Reemplaza con la contraseña de aplicación generada
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom('alesaturno64@gmail.com', 'Nubiral');
         $mail->addAddress($correo); // Reemplaza con tu dirección de Gmail (administrador)
         $mail->isHTML(true);
-        $mail->Subject = 'Nuevo Registro de Contacto';
+        $mail->Subject = 'Copa América';
         $mail->Body    = $adminBody;
         $mail->AltBody = strip_tags($adminBody);
         $mail->send();

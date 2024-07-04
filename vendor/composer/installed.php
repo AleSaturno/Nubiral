@@ -3,7 +3,7 @@
         'name' => 'ale/nubiral',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'db70ece3811f5114e0a35a5383b5f117bea818e3',
+        'reference' => '301cb0f378657d5acbcfd0f38447b2211293e8e4',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ale/nubiral' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'db70ece3811f5114e0a35a5383b5f117bea818e3',
+            'reference' => '301cb0f378657d5acbcfd0f38447b2211293e8e4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
